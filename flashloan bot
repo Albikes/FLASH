@@ -10,18 +10,6 @@ lending_pool_address = 'indirizzo_contratto_lending_pool'
 
 # Inizializza AaveFlashLoan
 aave_flashloan = AaveFlashLoan(w3, private_key, lending_pool_address)
-
-# Esempio di funzione per eseguire l'arbitraggio con l'utilizzo di Flash Loan
-def arbitraggio_flash_loan():
-    # Implementa il tuo codice di arbitraggio qui
-    # Ottieni un prestito Flash da Aave
-    flash_loan_data = {
-        'amount': 10,  # Specifica l'importo del prestito
-        'asset': 'tuo_attivo',  # Specifica l'attivo per l'arbitraggio
-        'receiver_address': 'tuo_indirizzo_destinatario',  # Indirizzo del contratto che gestisce il prestito
-        'params': {'aggiuntivi': 'parametri_arbitraggio'}  # Parametri aggiuntivi per l'arbitraggio
-    }
-
     # Chiamata alla funzione Flash Loan
     aave_flashloan.execute_flash_loan(flash_loan_data)
 
