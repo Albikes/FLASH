@@ -1,20 +1,7 @@
 from web3 import Web3
 from aave_flashloan.aave_flashloan import AaveFlashLoan
 
-# Specifica il tuo nodo Ethereum e la chiave privata
-w3 = Web3(Web3.HTTPProvider('il_tuo_nodo'))
-private_key = 'la_tua_chiave_privata'
-
-# Indirizzo del contratto Aave LendingPool
-lending_pool_address = 'indirizzo_contratto_lending_pool'
-
-# Inizializza AaveFlashLoan
-aave_flashloan = AaveFlashLoan(w3, private_key, lending_pool_address)
-    # Chiamata alla funzione Flash Loan
-    aave_flashloan.execute_flash_loan(flash_loan_data)
-
-# Avvia l'arbitraggio con l'utilizzo di Flash Loan
-arbitraggio_flash_loan()
+# Spec
 from web3 import Web3
 from aave_flashloan.aave_flashloan import AaveFlashLoan
 
