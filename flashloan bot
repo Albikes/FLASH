@@ -4,11 +4,6 @@ from aave_flashloan.aave_flashloan import AaveFlashLoan
 # Spec
 from web3 import Web3
 from aave_flashloan.aavs)
-    # Chiamata alla funzione Flash Loan
-    aave_flashloan.execute_flash_loan(flash_loan_data)
-
-# Avvia l'arbitraggio con l'utilizzo di Flash Loan
-arbitraggio_flash_loan()
 from web3 import Web3
 from aave_flashloan.aave_flashloan import AaveFlashLoan
 
